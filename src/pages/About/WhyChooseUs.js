@@ -29,7 +29,7 @@ function WhyChooseUs() {
       <div className="grid grid-cols-3 p-5 gap-10 sm:grid-cols-1">
         {items.map((item) => (
           <div className="p-5 bg-white border shadow flex flex-col space-y-5 items-center transform hover:scale-105 duration-300">
-            <img src={item.image} className="h-20 w-20" />
+            <img src={item.image} alt="" className="h-20 w-20" />
             <h1 className="text-2xl font-semibold">{item.title}</h1>
             <p className="text-gray-600 text-md">{item.description}</p>
           </div>

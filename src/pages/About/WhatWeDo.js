@@ -36,9 +36,9 @@ function WhatWeDo() {
       <div className="grid grid-cols-4 sm:grid-cols-1 gap-10 mx-32 sm:mx-0 -mt-48 sm:w-full sm:px-5">
           {items.map((item)=>(
               <div className="p-5 bg-white border shadow flex flex-col space-y-5 items-center transform hover:scale-105 duration-300 sm:selection:w-full">
-                      <img src={item.icon} className="h-20 w-20" />
-                      <h1 className='text-2xl'>{item.title}</h1>
-                      <p className='text-gray-600 text-md'>{item.description}</p>
+                <img src={item.icon} alt="" className="h-20 w-20" />
+                <h1 className='text-2xl'>{item.title}</h1>
+                <p className='text-gray-600 text-md'>{item.description}</p>
               </div>
           ))}
       </div>
